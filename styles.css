@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: #219EBC;
+    color: white;
+}
+
+.game-container {
+    text-align: center;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.175);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    margin: 2rem;
+}
+
+.choices {
+    display: flex;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.choice {
+    font-size: 3rem;
+    padding: 1rem 2rem;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.choice:hover {
+    transform: scale(1.1);
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.result {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.win {
+    background: rgba(76, 175, 80, 0.5);
+}
+
+.lose {
+    background: rgba(244, 67, 54, 0.5);
+}
+
+.tie {
+    background: rgba(255, 193, 7, 0.5);
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1rem 0;
+}
+
+.score-box {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 1rem;
+    border-radius: 10px;
+    min-width: 100px;
+}
+
+h1 {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.moves {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1rem 0;
+    font-size: 2rem;
+}
